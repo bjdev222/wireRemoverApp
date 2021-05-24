@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401952017233",
+    "firebase_url": "https://dscscet-c0923.firebaseio.com",
+    "project_id": "dscscet-c0923",
+    "storage_bucket": "dscscet-c0923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401952017233:android:12f6a00db3414eacb96170",
+        "android_client_info": {
+          "package_name": "com.wolcnore.wireremover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401952017233-mklt9bvmcfadl9kbupvbbqrdafpquilb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wolcnore.wireremover",
+            "certificate_hash": "ad7735702a9a57ccace46ea9972ef01d5434fe35"
+          }
+        },
+        {
+          "client_id": "401952017233-lqc012v7g89ngpsdh90rk7jis9cc1fj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3QDDy9oVHKE5G2nwtvoX0_VvfrVCDnsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401952017233-lqc012v7g89ngpsdh90rk7jis9cc1fj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

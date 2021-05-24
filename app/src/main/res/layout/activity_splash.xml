@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".splash">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/wirep"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/logo"
+
+        android:layout_height="wrap_content"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        android:text="Wire Remover App"
+        android:textSize="35sp"
+        android:textColor="#eb4434"
+        android:fontFamily="@font/gb"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/made"
+        android:layout_centerInParent="true"
+        android:layout_height="150dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/made"
+        android:textColor="#0d9d57"
+        android:text="Made By"
+        android:layout_below="@+id/title"
+        android:textSize="35sp"
+        android:fontFamily="@font/gb"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"></TextView>
+
+
+</RelativeLayout>
